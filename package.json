@@ -1,0 +1,40 @@
+{
+    "name": "@uralsib/eslint-config",
+    "version": "1.0.0",
+    "description": "Общая конфигурация для проектов классной команды Уралсиб банка",
+    "root": true,
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix"
+    },
+    "keywords": [
+        "eslint",
+        "eslint-plugin",
+        "eslint",
+        "plugin",
+        "uralsib"
+    ],
+    "author": "Valentin Voznuyk",
+    "license": "MIT",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.29.0",
+        "@typescript-eslint/parser": "4.29.0",
+        "eslint": ">=6.0.0",
+        "eslint-plugin-prettier": "^3.4.0",
+        "eslint-plugin-react": "^7.24.0",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "eslint-plugin-simple-import-sort": "^7.0.0",
+        "stylelint-config-sass-guidelines": "^8.0.0"
+    },
+    "peerDependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.29.0",
+        "@typescript-eslint/parser": "4.29.0",
+        "eslint": ">=6.0.0",
+        "eslint-plugin-prettier": "^3.4.0",
+        "eslint-plugin-react": "^7.24.0",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "eslint-plugin-simple-import-sort": "^7.0.0",
+        "stylelint-config-sass-guidelines": "^8.0.0"
+    }
+}

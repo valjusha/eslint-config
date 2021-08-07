@@ -1,0 +1,6 @@
+// todo
+// декомпозировать lib/typescript-next-app на отдельные плагины и правила; cmd > 'npm run lint'
+{
+    // "extends": "./lib/typescript-next-app/.eslintrc.json",
+    "parser": "@typescript-eslint/parser"
+}
